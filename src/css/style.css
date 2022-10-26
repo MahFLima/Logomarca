@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --background: rgb(52, 121, 186);
+  --button: rgb(255, 192, 1);
+  --text-base: #C4C4CC;
+  --title: #E1E1E6;
+}
+
+body{
+  color: var(--text-base);
+}
+
+li{
+  list-style: none;
+  padding: 2rem;
+}
+
+li:hover{
+  background: var(--background);
+}
+
+a{
+  text-decoration: none;
+  color: var(--text-base);
+}
+
+h1{
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+  display: block;
+  margin: 2rem 0;
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #121214;
+  padding: 0 5rem;
+}
+
+header strong{
+  font-size: 1.5rem;
+  color: var(--title);
+}
+
+header ul{
+  display: flex;
+  font-size: 1rem;
+}
+
+main{
+  margin-bottom: 2rem;
+}
+
+.men{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  background: var(--background);
+  color: var(--text-base);
+}
+
+.content-men{
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.content-men strong{
+  font-size: 3rem;
+  letter-spacing: 4px;
+  color: white;
+}
+
+.content-men p{
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.content-men button{
+  background-color: var(--button);
+  border: none;
+  padding: 1rem;
+  width: 50%;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: var(--title);
+  cursor: pointer;
+}
+
+.content-men button:hover{
+  opacity: 0.7;
+}
+
+.others{
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+footer{
+  color: white;
+  background: var(--background);
+  text-align: center;
+  padding: 2rem;
+}
+
+footer p{
+  letter-spacing: 2px;
+}
