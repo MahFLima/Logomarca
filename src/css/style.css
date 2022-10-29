@@ -19,6 +19,7 @@ body {
 li {
   list-style: none;
   padding: 2rem;
+  text-transform: uppercase;
 }
 
 li:hover {
